@@ -1,0 +1,16 @@
+﻿<Window x:Class="HelloCaliburn.Views.People.test1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloCaliburn.Views.People"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        cal:View.Model="{Binding PeopleViewModel}"
+        cal:View.Context="test1"
+        Title="test1" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="222,189,0,0" VerticalAlignment="Top" Height="41" Width="147"/>
+
+    </Grid>
+</Window>

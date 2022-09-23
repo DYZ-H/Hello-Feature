@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MyView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShellView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="testSonView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="testView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\BindingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FeatureView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FrameView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\People\test1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MyView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ShellView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="testSonView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="testView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\BindingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FeatureView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FrameView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\People\test1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

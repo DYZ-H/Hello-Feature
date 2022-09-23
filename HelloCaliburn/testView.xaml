@@ -1,0 +1,18 @@
+﻿<Window x:Class="HelloCaliburn.testView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloCaliburn"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Title="testView" Height="450" Width="800">
+    <Grid>
+        <ContentControl Name="ActiveItem"  HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="415" Width="629"/>
+        <Button Name="Show" Content="打开" HorizontalAlignment="Left" Margin="712,147,0,0" VerticalAlignment="Top" Height="39" Width="57"/>
+        <Button Name="Show2" Content="打开2" HorizontalAlignment="Left" Margin="712,0,0,0" VerticalAlignment="Center" Height="39" Width="57"/>
+        <Button x:Name="Close" Content="关闭" HorizontalAlignment="Left" Margin="712,320,0,0" VerticalAlignment="Top" Height="39" Width="57" />
+        <Button x:Name="Open" Content="Button" HorizontalAlignment="Left" Margin="712,74,0,0" VerticalAlignment="Top" Height="26" Width="57"/>
+        <Button x:Name="ac" Content="再现" HorizontalAlignment="Left" Margin="712,269,0,0" VerticalAlignment="Top" Height="26" Width="57"/>
+    </Grid>
+</Window>
